@@ -1,10 +1,17 @@
 {
   "name": "root",
+  "version": "0.0.1",
   "private": true,
   "devDependencies": {
     "lerna": "^3.20.2"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "cf:install": "npm install -g lerna",
+    "cf:setup": "lerna run setup",
+    "cf:setup:js": "lerna run --ignore @cf/backend setup",
+    "cf:setup:py": "lerna run --scope @cf/backend setup ",
+  }
 }
