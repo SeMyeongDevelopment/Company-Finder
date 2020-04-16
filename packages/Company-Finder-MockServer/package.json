@@ -1,0 +1,12 @@
+{
+  "name": "@cf/mockserver",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "echo \"Hello MockServer World\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
