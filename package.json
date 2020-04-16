@@ -12,6 +12,6 @@
     "cf:install": "npm install -g lerna",
     "cf:setup": "lerna run setup",
     "cf:setup:js": "lerna run --ignore @cf/backend setup",
-    "cf:setup:py": "lerna run --scope @cf/backend setup "
+    "cf:setup:py": "lerna run --scope @cf/backend setup"
   }
 }
